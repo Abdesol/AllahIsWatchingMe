@@ -11,6 +11,6 @@
     </Application.Resources>
 
     <Application.Styles>
-        <FluentTheme Mode="Light"/>
+        <SimpleTheme Mode="Light"/>
     </Application.Styles>
 </Application>

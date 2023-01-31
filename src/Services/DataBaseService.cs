@@ -1,16 +1,13 @@
 using System;
 using System.IO;
 using AllahIsWatchingMe.Models;
-using Avalonia;
 using Newtonsoft.Json;
-using SQLite;
 
 namespace AllahIsWatchingMe.Services;
 
 public class DataBaseService
 {
     public static DataBaseService Current { get; } = new();
-    private SQLiteConnection _db;
 
     private DataBaseService()
     {
