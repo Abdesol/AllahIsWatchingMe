@@ -5,6 +5,10 @@
     <Application.DataTemplates>
         <local:ViewLocator/>
     </Application.DataTemplates>
+    
+    <Application.Resources>
+        <FontFamily x:Key="QuigleyWiggly">avares://AllahIsWatchingMe/Assets/QUIGLEYW.ttf#QuigleyWiggly</FontFamily>
+    </Application.Resources>
 
     <Application.Styles>
         <FluentTheme Mode="Light"/>

@@ -9,7 +9,7 @@ public class PrefModel
     /// Size of the window
     /// </summary>
     [JsonProperty]
-    public int? FontSize { get; set; }
+    public double? FontSize { get; set; }
     
     /// <summary>
     /// Position of the window
