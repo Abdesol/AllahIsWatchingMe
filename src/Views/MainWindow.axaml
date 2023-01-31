@@ -5,13 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
         x:Class="AllahIsWatchingMe.Views.MainWindow"
-        Icon="/Assets/avalonia-logo.ico"
+        Icon="/Assets/logo.ico"
         Title="Allah is watching me" 
         SizeToContent="WidthAndHeight"
         ExtendClientAreaToDecorationsHint="True"
         ExtendClientAreaChromeHints="NoChrome"
         TransparencyLevelHint="Transparent"
         Background="Transparent"
+        ShowInTaskbar="False"
         Topmost="True">
 
     <Design.DataContext>

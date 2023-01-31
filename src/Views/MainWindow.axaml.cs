@@ -71,6 +71,7 @@ public partial class MainWindow : Window
         timer.Start();
 
     }
+
     private void ChangeWindowPosition(object sender, PointerPressedEventArgs e)
     {
         base.OnPointerPressed(e);
