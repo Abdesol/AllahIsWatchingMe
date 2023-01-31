@@ -25,7 +25,6 @@
     </Window.Resources>
     
     <Grid PointerPressed="ChangeWindowPosition" x:Name="MainGrid" RowDefinitions="*, Auto" Opacity="0.75">
-        <!-- Make the word allah with path and view box -->
         <Image Grid.Row="0" x:Name="MainImage" Stretch="Uniform" Source="../Assets/Allah.png"/>
         <TextBlock Grid.Row="1" x:Name="MainText" Foreground="{DynamicResource MainBrush}" 
                    HorizontalAlignment="Center"
