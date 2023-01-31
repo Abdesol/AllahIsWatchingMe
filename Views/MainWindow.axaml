@@ -1,0 +1,24 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:AllahIsWatchingMe.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        x:Class="AllahIsWatchingMe.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Allah is watching me" 
+        SizeToContent="WidthAndHeight"
+        ExtendClientAreaToDecorationsHint="True"
+        ExtendClientAreaChromeHints="NoChrome"
+        TransparencyLevelHint="Transparent"
+        Background="Red"
+        Topmost="True">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+    
+    <Grid PointerPressed="ChangeWindowPosition" x:Name="MainGrid">
+        <TextBlock x:Name="MainText" Text="Allah is watching me"/>
+    </Grid>
+</Window>
