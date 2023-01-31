@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using AllahIsWatchingMe.Models;
+using Avalonia;
 using Newtonsoft.Json;
 
 namespace AllahIsWatchingMe.Services;
@@ -25,13 +26,14 @@ public class DataBaseService
                 File.Delete(PrefPath);
                 Preferences = new PrefModel()
                 {
-                    FontSize = 25, Position = null
+                    FontSize = 25, Position = new PixelPoint(15,15)
                 };
                 UpdatePref();
             }
             else
             {
                 Preferences.FontSize ??= 25;
+                Preferences.Position ??= new PixelPoint(15,15);
                 UpdatePref();
             }
         }
@@ -39,7 +41,7 @@ public class DataBaseService
         {
             Preferences = new PrefModel()
             {
-                FontSize = 25, Position = null
+                FontSize = 25, Position = new PixelPoint(15,15)
             };
             UpdatePref();
         }
