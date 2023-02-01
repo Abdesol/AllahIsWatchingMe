@@ -20,3 +20,8 @@ To do this, just press the `Ctrl` key and scroll up/down. This will increase/dec
 
 ### How to move the app?
 To do this, just click on the text with `left mouse` button and drag it to the desired location.
+<br/>
+<br/>
+You can download the app setup using this link [here](https://github.com/Abdesol/AllahIsWatchingMe/releases/download/v1.x/Setup.exe) or visit the release page and download the latest version there.
+<br/>
+This app is assured to work properly on windows 10 and 11. If you came across any problem, open an issue on this repository.
