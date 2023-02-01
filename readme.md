@@ -8,11 +8,12 @@ from different platforms. This app will help us to be aware of Allah's presence 
 result it will help us avoid looking, watching, or listening to things that are prohibited 
 in Islam.
 <br/>
+<br/>
 It is a simple app. It is transparent. It will just show the text "**اللّٰه is watching me**" on the screen, and you can adjust the size and move it around. It will start on your computer startup. It will always be on
 top of all other windows. I will try to keep it updated with new features and bug fixes. Also, I am always open
 to suggestions or contributions.
 <br/>
-![Demo](imgs/demo.gif =250x)
+![Demo](imgs/demo.gif)
 
 ### How to increase/decrease the font size?
 To do this, just press the `Ctrl` key and scroll up/down. This will increase/decrease the font size.
